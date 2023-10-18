@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap");
+
+#header-ul a {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+#description {
+  display: grid;
+  place-content: center;
+  div {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.title {
+  font-family: $font-family-heading;
+}
+
+footer {
+  @include media-breakpoint-down(md) {
+    text-align: center;
+  }
+}
